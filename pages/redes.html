@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilos_index.css">
+
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
+rel="stylesheet"
+/>
+    <title>Mi biografía</title>
+    <style>
+        .enlaces {
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            color: #fbd70d;
+            ;
+            text-decoration: none;
+            display: block;
+            margin: 0;
+            height: 29px;
+            padding: 31px;
+            font-weight: 900;
+            text-align: center;
+        }
+
+
+        .enlaces:hover {
+
+
+            background-color: #3C4787;
+
+
+        }
+
+        form>input {
+            border-style: solid;
+            border-radius: 50px !important;
+            border-width: 2px;
+            border-color: #8b81e3;
+            padding: 10px 12px;
+        }
+
+        h1 {
+            font-size: 30px;
+            font-family: system-ui;
+        }
+
+        header>img:hover {
+            transform: rotate(180deg) translate(2px, -51px);
+            transition: 1s linear;
+        }
+
+        form>label {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        form>input {
+            margin-top: 5px;
+        }
+
+        form>textarea {
+            margin-top: 5px;
+            border-style: solid;
+            border-radius: 30px !important;
+            border-width: 2px;
+            border-color: #8b81e3;
+            padding: 10px 12px;
+            width: 496px;
+            height: 85px;
+        }
+
+        #tamañofotos {
+            width: 215px;
+            height: 215px;
+        }
+    </style>
+</head>
+
+<body style=" margin: 0;">
+    <header
+        style="position: fixed; background-color: #333b8be8;height: 745px;width: 400px;float: left;  box-shadow: -2px 0 16px #0000009c;">
+        <img src="../src/imagenes/happy-02.png" alt="portada" height="300px" width="100%" style="    width: 150px;
+        height: 150px;
+        padding: 60px 31% 8px 31%;">
+        <nav style="text-align: center; margin-top: 25PX;">
+            <span style="font-size: 24px; padding: 12px 24px;">
+                <a class="enlaces" href="../index.html">Inicio</a>
+                <a class="enlaces" href="../pages/aboutme.html">Portafolio</a>
+                <a class="enlaces" href="../pages/gallery.html">Galería</a>
+                <a class="enlaces" href="#">Contacto</a>
+            </span>
+        </nav>
+    </header>
+    <main style="padding-left: 402px;">
+        <section style="  
+         width: 1009px;
+        height: 401px;
+        padding: 32px 62px 172px 60px;
+        float: left;
+    ">
+            <section style="
+        width: 100%;
+    ">
+                <h1 style="
+        text-align: center;
+        color: #fbd70d;
+    font-size: 45px;
+    ">Redes: </h1>
+
+
+
+
+            </section>
+            
+            <section>
+                <!-- Modal gallery -->
+                <section style="padding: 8px 99px;" class="">
+                    <!-- Section: Images -->
+                    <section class="">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                <div id="tamañofotos" class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <img src="/src/imagenes/feed/enero-01.jpg" class="w-100" />
+                                    <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <div id="tamañofotos" class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <img src="/src/imagenes/feed/enero-02.jpg" class="w-100" />
+                                    <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <div id="tamañofotos" class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <img src="/src/imagenes/feed/enero-07.jpg" class="w-100" />
+                                    <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <!-- Modal gallery -->
+            </section>
+            <section>
+                <!-- Modal gallery -->
+                <section style="padding: 8px 99px;" class="">
+                    <!-- Section: Images -->
+                    <section class="">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                <div id="tamañofotos" class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <img src="/src/imagenes/feed/enero-01.jpg" class="w-100" />
+                                    <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <div id="tamañofotos" class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <img src="/src/imagenes/feed/enero-02.jpg" class="w-100" />
+                                    <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <div id="tamañofotos" class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <img src="/src/imagenes/feed/enero-07.jpg" class="w-100" />
+                                    <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <!-- Modal gallery -->
+            </section>
+            <section>
+                <!-- Modal gallery -->
+                <section style="padding: 8px 99px;" class="">
+                    <!-- Section: Images -->
+                    <section class="">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                <div id="tamañofotos" class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <img src="/src/imagenes/feed/enero-01.jpg" class="w-100" />
+                                    <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <div id="tamañofotos" class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <img src="/src/imagenes/feed/enero-02.jpg" class="w-100" />
+                                    <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                                <div id="tamañofotos" class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <img src="/src/imagenes/feed/enero-07.jpg" class="w-100" />
+                                    <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <!-- Modal gallery -->
+            </section>
+    </main>
+    <footer>
+    </footer>
+    <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
+></script>
+</body>
+
+</html>

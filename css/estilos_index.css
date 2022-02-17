@@ -1,0 +1,108 @@
+.enlaces {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #fbd70d;;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    height: 29px;
+    padding: 31px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.enlaces:hover {
+    
+
+    background-color: #3C4787;
+   
+    
+}
+
+h1, h2{
+    font-size: 30px;
+    font-family: system-ui;
+}
+header>img:hover{
+    transform: rotate(180deg) translate(2px,-51px);
+transition: 1s linear;
+}
+body{
+    margin: 0;
+}
+body>header{
+    background-color: #333b8be8;
+    height: 745px;width: 400px;
+    float: left;
+    box-shadow: -2px 0 16px #0000009c;
+
+}
+header>img{
+    width: 150px;
+    height: 150px;
+    padding: 60px 31% 8px 31%;
+}
+header>nav{
+    text-align: center;
+    margin-top: 25PX;
+}
+nav>span{
+    font-size: 24px; padding: 12px 24px;
+}
+main{
+    padding-left: 402px;
+}
+main>section:first-child{
+    width: 320px;
+    height: 401px;
+    padding: 172px 16px 172px 60px;
+    float: left;
+}
+.imagenportada{
+    width: 400px;
+    width: 100%;
+    float: left;
+    border-radius: 45px;
+    box-shadow: 6px 10px 22px #00000040;
+}
+main>section:nth-child(2){
+    font-size: 25px;
+    width: 612px;
+    padding: 2px 33px;
+    float: left;
+    margin-top: 62px;
+}
+section>p{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+footer{
+    text-align: center;
+    float: left;
+}
+footer>h2{
+    text-align: none;
+    text-align: initial;
+    margin-left: 32px;
+}
+footer>img:first-child{
+    width: 81px; margin-left: 81px;
+}
+footer>img:nth-child(2){
+    width: 111px;
+        margin-left: 76PX;
+        margin-bottom: 13px;
+}
+footer>img:nth-child(3){
+    width: 65px;
+        margin-left: 51PX;
+        margin-bottom: 13px;
+}
+footer>img:nth-child(4){
+    width: 65px;
+        margin-left: 51PX;
+        margin-bottom: 13px;
+}
+

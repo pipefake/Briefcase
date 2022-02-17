@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Mi biografía</title>
+    <style>
+        .enlaces {
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            color: #fbd70d;
+            ;
+            text-decoration: none;
+            display: block;
+            margin: 0;
+            height: 29px;
+            padding: 31px;
+            font-weight: 900;
+            text-align: center;
+        }
+
+
+        .enlaces:hover {
+
+
+            background-color: #3C4787;
+
+
+        }
+
+        h1 {
+            font-size: 30px;
+            font-family: system-ui;
+        }
+
+        header>img:hover {
+            transform: rotate(180deg) translate(2px, -51px);
+            transition: 1s linear;
+        }
+
+        .folders {
+            
+            width: 290px;
+            height: 240px;
+            background-size: cover;
+        }
+        .folders:hover {
+            
+            width: 290px;
+            height: 240px;
+            background-size: cover;
+        }
+        .folder1{
+            background-image: url(../src/imagenes/folder1.png);
+            float: left;
+        }
+        .folder1:hover{
+            background-image: url(../src/imagenes/folderA.png);
+        }
+        .folder2{
+            background-image: url(../src/imagenes/folder2.png);
+            margin-left: 336PX;
+            margin-top: 48px;
+        }
+        .folder2:hover{
+            background-image: url(../src/imagenes/folderB.png);
+        }
+        .folder3{
+            background-image: url(../src/imagenes/folder3.png);
+            margin-top: 45px;
+            float: left;
+        }
+        .folder3:hover{
+            background-image: url(../src/imagenes/folderC.png);
+        }
+        .folder4{
+            background-image: url(../src/imagenes/folder4.png);
+            margin-top: 0;
+            margin-left: 336PX;
+        }
+        .folder4:hover{
+            background-image: url(../src/imagenes/folderD.png);
+        }
+    </style>
+
+<body style=" margin: 0;">
+    <header
+        style="position: fixed; background-color: #333b8be8;height: 745px;width: 400px;float: left;  box-shadow: -2px 0 16px #0000009c;">
+        <img src="../src/imagenes/happy-02.png" alt="portada" height="300px" width="100%" style="    width: 150px;
+        height: 150px;
+        padding: 60px 31% 8px 31%;">
+        <nav style="text-align: center; margin-top: 25PX;">
+            <span style="font-size: 24px; padding: 12px 24px;">
+                <a class="enlaces" href="../index.html">Inicio</a>
+                <a class="enlaces" href="#">Portafolio</a>
+                <a class="enlaces" href="../pages/gallery.html">Galería</a>
+                <a class="enlaces" href="../pages/contact.html">Contacto</a>
+            </span>
+        </nav>
+    </header>
+    <main style="padding-left: 402px;">
+        <section style="
+            width: 320px;
+    height: 401px;
+    padding: 118px 16px 172px 196px;
+
+    float: left;
+        ">
+            <a href="/pages/logos.html"><div class="folders folder1"></div></a>
+            <a href="/pages/animaciones.html"><div class="folders folder3"></div></a>
+            <a href="/pages/web.html"><div class="folders folder4"></div></a>
+            <a href="/pages/redes.html"><div class="folders folder2"></div></a>
+        </section>
+        <section>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
